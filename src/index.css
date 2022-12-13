@@ -15,3 +15,12 @@ code {
 .myPara {
   color: red;
 }
+
+.classTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+  gap: 20px;
+}

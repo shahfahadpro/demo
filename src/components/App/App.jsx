@@ -1,13 +1,12 @@
-import { Navbar } from "../Navbar/Navbar";
+// import { Navbar } from "../Navbar/Navbar";
+import ClassTwo from "../ClassTwo/ClassTwo";
 
 const App = () => {
-  const items = ["Home", "About", "Contact Us", "Fahad"];
+  // const items = ["Home", "About", "Contact Us", "Fahad"];
 
   return (
     <div>
-      <Navbar listItems={items}>
-        <p className="myPara">Hello, we're learing React.js</p>
-      </Navbar>
+      <ClassTwo />
     </div>
   );
 };
